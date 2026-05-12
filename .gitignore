@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+Mobile.csv
+MobileDataset_Analysis.html
+MobileDataset_Analysis.pdf
+.env
