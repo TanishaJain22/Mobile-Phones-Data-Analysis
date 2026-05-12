@@ -22,7 +22,7 @@ def clean_numeric(val):
 def load_data():
     try:
         # Load the specified dataset
-        df = pd.read_csv("Mobiles Dataset (2025).csv")
+        df = pd.read_csv("Mobiles Dataset (2025).csv", encoding='latin-1')
     except FileNotFoundError:
         st.error("Dataset 'Mobiles Dataset (2025).csv' not found. Please ensure it is in the same directory.")
         st.stop()
